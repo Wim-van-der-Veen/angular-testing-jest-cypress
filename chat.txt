@@ -1,0 +1,133 @@
+Sander Elias
+14:31
+Shai, why are you in my car?
+Oyemaja Oyemade
+14:32
+Hello everyone 👋🏽
+Timothy Baldwin
+14:35
+Good morning!
+Early question:
+What framework would you recommend for unit testing in Angular?  Jasmine, Jest or Mocha?
+Azariah Engelbrecht
+14:35
+   Jest :)
+Sander Elias
+14:40
+I'll second Jest.
+Adam Murray
+14:41
+Same. I prefer Jest.
+Arjun Shankar
+14:45
+should I move to jest ....
+Sander Elias
+14:45
+Yes.
+I can use tons of words, but it boils down to.
+yes.
+Azariah Engelbrecht
+14:48
+Looking for something for visual regression on Angular components? :( Anyone?
+Sander Elias
+14:48
+hmm, Adam? any idea? 
+Cyores is working/has visual regresion stuff, but I don't know its current state.
+Natalia Cáceres
+14:49
+🎊🎊🎊 :D confetti for @Ana!
+Sander Elias
+14:49
+Cypres.
+Valentine Awe
+14:49
+Hi Ana
+Shai Reznik
+14:50
+https://hirez.link/AngularNation_QA
+Adam Murray
+14:51
+@azariah one option that you could look at is percy.io
+Paul Jaffre
+14:51
+re: Angular viz Percy works well with Cypress. we've also seen folks have decent luck using this with Cypress https://www.npmjs.com/package/cypress-plugin-snapshots
+Azariah Engelbrecht
+14:53
+@Paul that lib is so buggy :( last publish to it was about a year ago :(
+
+I think perhaps will look into Percy.
+Paul Jaffre
+14:55
+interesting @azariah, thanks for that info. wanted to give a couple of options, but that's why we recommend Percy first :-)
+Azariah Engelbrecht
+14:56
+More options are WELCOME! @Paul :D
+Angular Nation
+14:58
+Async vs Sync  w/ Sander and Sam -> https://www.youtube.com/watch?v=jWtVXFQZpGo
+Pete Bacon Darwin
+14:59
+Here is a link to the tiny bit of the docs that explains that you don't need to wait for component compilation in CLI unit tests.
+
+https://angular.io/guide/testing-components-scenarios#:~:text=That%27s%20not%20a%20problem%20when%20you%20run%20the%20CLI%20ng%20test%20command%20because%20it%20compiles%20the%20application%20before%20running%20the%20tests.
+Sander Elias
+15:00
+A smoke test is there to detect failures that will make your customers ears blow smoke...
+Azariah Engelbrecht
+15:01
+LOL!!!!
+Natalia Cáceres
+15:04
+Cypress Q:
+is there a way we can see or group tags for cypress tests in the cypress dashboard ? 
+(I am brand new using tags, I see tags for runs in the dashboard, but not the tags I added to my tests :((( )
+I have to drop for a colliding meeting in 5 😅 but I will watch the recording 🤞
+Angular Nation
+15:06
+We will be sure to answer your question, and we will do this again as well, thanks for coming Nati! 🥰
+Natalia Cáceres
+15:06
+🧡🌟🎉💕 thx!
+Azariah Engelbrecht
+15:07
+Component testin scenarios: https://angular.io/guide/testing-components-scenarios
+
+I found this so confusing :(
+Sander Elias
+15:08
+See, exactly what i said. Shai just using (Wayyyy) more words!
+Shai Reznik
+15:11
+LOL
+Angular Nation
+15:12
+we ❤️ you Shai 
+Sander Elias
+15:13
+Remind me to add something about smoke tests after Nati is done.
+Angular Nation
+15:13
+also it's a very important point you were making bc I've seen some teams really struggling trying to reach 100% test coverage
+@sander +1
+Shai Reznik
+15:13
+I don't know if I answered your question Ana... but if you need more clarification let me know
+Natalia Cáceres
+15:14
+thank you guys! <3
+Azariah Engelbrecht
+15:14
+100% test coverage doesn't mean much from a unit/component level. Need to cover critical paths first, like Shai said :D
+Natalia Cáceres
+15:14
+be back later if you are still here
+Ana Boca
+15:15
+@Shai You did 😀 - thank you thank you!
+Shai Reznik
+15:15
+Sure thing sista! 😊🙌
+Azariah Engelbrecht
+15:16
+E2E =. ALL THE THINGS!!!!!
+bkw-jdww-vkp

@@ -1,0 +1,6 @@
+/dist
+/coverage
+
+# ignore all typescript and html files because prettier doesn't understand readability
+*.ts
+*.html
